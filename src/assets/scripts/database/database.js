@@ -234,7 +234,7 @@ Empresas = {
         },
         {
             id: 14,
-            produtos: [Produtos.restaurantes[3],Produtos.restaurantes[4]],
+            produtos: [Produtos.restaurantes[3]],
             nome: 'Japatê',
             descricao: `Japatê, o sabor que a vida #temquetê! 🍣🧡 Uma experiência completa em culinária japonesa.`,
             cidade: 'Juiz de Fora',
