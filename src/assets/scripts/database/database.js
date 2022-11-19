@@ -98,7 +98,7 @@ Produtos = {
         - Petisco para todos os momentos;
         - Sabor churrasco;
         - Disponível em embalagens de 65g e 500g.`,
-        imagens:['./../src/assets/images/companies/products/pets/05/1.webp','./../src/assets/images/companies/products/pets/05/1.webp','./../src/assets/images/companies/products/pets/05/1.webp'],
+        imagens:['./../src/assets/images/companies/products/pets/05/1.webp','./../src/assets/images/companies/products/pets/05/2.webp','./../src/assets/images/companies/products/pets/05/3.webp'],
         domicilio:true,
         agendamento:false,
         nfavoritos: 55,
