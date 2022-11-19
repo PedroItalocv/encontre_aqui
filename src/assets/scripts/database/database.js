@@ -80,9 +80,27 @@ Produtos = {
         id: 6,
         nome: "Pet Shop JD Alvorada",
         descricao: `Arranhador de Rampa Furacão Pet para gatos`,
-        imagens:['./../src/assets/images/companies/products/pets/04/1.JPG','./../src/assets/images/companies/products/pets/04/1.JPG','./../src/assets/images/companies/products/pets/03/1.JPG'],
+        imagens:['./../src/assets/images/companies/products/pets/04/1.JPG','./../src/assets/images/companies/products/pets/04/1.JPG','./../src/assets/images/companies/products/pets/04/1.JPG'],
         domicilio:true,
         agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'petshop'
+    },
+    {
+        id: 7,
+        nome: "Bifinho Keldog para Cães Adultos Sabor Churrasco",
+        descricao: `
+        - Indicado para cães adultos;
+        - Feito com carnes selecionadas;
+        - Macio e saboroso;
+        - Alta palatabilidade;
+        - Petisco para todos os momentos;
+        - Sabor churrasco;
+        - Disponível em embalagens de 65g e 500g.`,
+        imagens:['./../src/assets/images/companies/products/pets/05/1.webp','./../src/assets/images/companies/products/pets/05/1.webp','./../src/assets/images/companies/products/pets/05/1.webp'],
+        domicilio:true,
+        agendamento:false,
         nfavoritos: 55,
         isEmpresa:'produto', 
         categoria: 'petshop'
@@ -206,7 +224,7 @@ Empresas = {
     petshops: [
         {
             id: 1,
-            produtos: [Produtos.petshops[0]],
+            produtos: [Produtos.petshops[0],Produtos.petshops[7]],
             nome: 'Pet Shop Delivery',
             descricao: `Pet Shop online e delivery de rações e outros produtos para cães e gatos. Entregues em até 2 horas de 9 as 21 de segunda a sexta e sábado até as 17.`,
             cidade: 'Juiz de Fora',
