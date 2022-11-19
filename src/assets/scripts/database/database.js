@@ -381,6 +381,23 @@ Empresas = {
             isEmpresa:'empresa',           
             categoria: 'eletricista' 
         },
+        {
+            id: 8,
+            produtos: [Produtos.moveis[1]],
+            nome: 'Jhon Herbert',
+            descricao: `Eletricista Atua na cidade de Juiz de Fora.  Montar, manter e reparar equipamentos eletricos, bem como executar a manutenção preventiva e corretiva de maquinário eletrico. Instrutor de instalações eletricas em alturas. Executar esboços e desenhos técnicos.`,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Floriano Peixoto, 10',
+            imagens: ['./../src/assets/images/companies/logos/logo8.jpg'],
+            imgBanner:'',
+            hfunc:['08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-12:00'],
+            tel: '9111-53197',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/Enrico.Goncalves.545553'],
+            isEmpresa:'empresa',           
+            categoria: 'eletricista' 
+        },
     ],
     advogados:[
         {
