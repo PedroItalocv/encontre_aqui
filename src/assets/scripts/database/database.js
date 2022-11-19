@@ -76,6 +76,17 @@ Produtos = {
         isEmpresa:'produto', 
         categoria: 'petshop' 
     },
+    {
+        id: 6,
+        nome: "Pet Shop JD Alvorada",
+        descricao: `Arranhador de Rampa Furacão Pet para gatos`,
+        imagens:['./../src/assets/images/companies/products/pets/04/1.jpg','./../src/assets/images/companies/products/pets/04/1.jpg','./../src/assets/images/companies/products/pets/03/1.jpg'],
+        domicilio:true,
+        agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'petshop'
+    }
 
     
     ],
@@ -284,7 +295,7 @@ Empresas = {
             id: 6,
             produtos: [Produtos.petshops[5]],
             nome: 'Pet Shop JD Alvorada',
-            descricao: 'Marque um horário para o banho de seu Pet* Buscamos e levamos em casa*',
+            descricao: 'Banho e tosa em seu Pet* Buscamos no conforto da sua casa para proporcionar um cuidado de excelencia',
             cidade: 'Juiz de Fora',
             estado: 'Minas Gerais',
             logradouro: 'Rua Quintino Bocaiúva, 700',
