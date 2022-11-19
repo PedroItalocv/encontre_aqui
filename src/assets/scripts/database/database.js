@@ -77,6 +77,7 @@ Produtos = {
         categoria: 'petshop' 
     },
 
+    
     ],
     moveis : [{
         id: 6,
@@ -277,7 +278,25 @@ Empresas = {
             rsocial:[''],
             isEmpresa:'empresa',
             categoria: 'petshop'
-        },                
+        },
+        
+        {
+            id: 6,
+            produtos: [Produtos.petshops[5]],
+            nome: 'Pet Shop JD Alvorada',
+            descricao: 'Marque um horário para o banho de seu Pet* Buscamos e levamos em casa*',
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Quintino Bocaiúva, 700',
+            imagens: ['./../src/assets/images/companies/logos/logo7.PNG'],
+            imgBanner:'./../src/assets/images/companies/banners/07/banner.jpg',
+            hfunc:['08:00-18:00','08:00-18:00','08:00-18:00','08:00-18:00','08:00-22:00','08:00-18:00','08:00-12:00'],
+            tel: '98589-4558',
+            nfavoritos: 55,
+            rsocial:[''],
+            isEmpresa:'empresa',
+            categoria: 'petshop'
+        },
     ], //FIM PETS
     moveis:[
         {
