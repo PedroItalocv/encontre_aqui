@@ -202,6 +202,19 @@ restaurantes : [
         isEmpresa:'produto', 
         categoria: 'restaurante' 
     },
+    {
+        id: 16,
+        nome: "Chocolate Suíço Lindt Milk Lindor Balls 75g",
+        descricao: `
+        Chocolate Suíço Lindt Milk Lindor Balls 75g receitas maravilhosas com esse chocolate incrível. `,
+        imagens:['./../src/assets/images/companies/products/restaurantes/16/01.webp','./../src/assets/images/companies/products/restaurantes/16/01.webp','./../src/assets/images/companies/products/restaurantes/16/01.webp','./../src/assets/images/companies/products/restaurantes/16/01.webp'],
+        preco: "29.90",
+        domicilio:true,
+        agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'restaurante' 
+    },
 ],
     //Fim Produtos
 }
@@ -510,6 +523,25 @@ Empresas = {
             categoria: 'barbearia' 
         },
     ],
+    supermercados:[ 
+        {
+            id: 12,
+            produtos: [Produtos.moveis[1]],
+            nome: 'Supermercados JF',
+            descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Roque Picoreli, 11',
+            imagens: ['./../src/assets/images/companies/logos/supermercado.jpg'],
+            imgBanner:'./src/assets/images/companies/banners/10/banner.jpg',
+            hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
+            tel: '9897-53197',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/SupJF.6572i'],
+            isEmpresa:'empresa',          
+            categoria: 'barbearia'
+        } 
+    ],
    
 }; //FIM EMPRESAS
 
@@ -544,6 +576,11 @@ Categorias = [
         id: 6,
         tags: ['barbearia','salão', 'barbeiro'],
         empresas:[Empresas.barbearia]
+    },
+    {
+        id: 7,
+        tags: ['supermercado','frutas', 'alimentação'],
+        empresas:[Empresas.supermercados]
     }
 ]//Fim Catgorias
 /*
