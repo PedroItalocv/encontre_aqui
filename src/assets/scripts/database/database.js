@@ -224,7 +224,7 @@ Empresas = {
     petshops: [
         {
             id: 1,
-            produtos: [Produtos.petshops[0],Produtos.petshops[7]],
+            produtos: [Produtos.petshops[0],Produtos.petshops[6]],
             nome: 'Pet Shop Delivery',
             descricao: `Pet Shop online e delivery de rações e outros produtos para cães e gatos. Entregues em até 2 horas de 9 as 21 de segunda a sexta e sábado até as 17.`,
             cidade: 'Juiz de Fora',
