@@ -194,7 +194,7 @@ restaurantes : [
         nome: "Atum Toast",
         descricao: `
         Atum semigrelhado. Finalizado com molho teriyaki, cebolinha, alho poró e gergelim. `,
-        imagens:['./../src/assets/images/companies/products/restaurantes/13/05/01.jpg','./../src/assets/images/companies/products/restaurantes/13/05/02.jpg','./../src/assets/images/companies/products/restaurantes/13/05/03.jpg','./../src/assets/images/companies/products/restaurantes/13/05/04.jpg'],
+        imagens:['./../src/assets/images/companies/products/restaurantes/13/01.jpg','./../src/assets/images/companies/products/restaurantes/13/02.jpg','./../src/assets/images/companies/products/restaurantes/13/03.jpg','./../src/assets/images/companies/products/restaurantes/13/04.jpg'],
         preco: "43.00",
         domicilio:true,
         agendamento:true,
