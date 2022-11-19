@@ -80,7 +80,7 @@ Produtos = {
         id: 6,
         nome: "Pet Shop JD Alvorada",
         descricao: `Arranhador de Rampa Furacão Pet para gatos`,
-        imagens:['./../src/assets/images/companies/products/pets/04/1.jpg','./../src/assets/images/companies/products/pets/04/1.jpg','./../src/assets/images/companies/products/pets/03/1.jpg'],
+        imagens:['./../src/assets/images/companies/products/pets/04/1.JPG','./../src/assets/images/companies/products/pets/04/1.JPG','./../src/assets/images/companies/products/pets/03/1.JPG'],
         domicilio:true,
         agendamento:true,
         nfavoritos: 55,
