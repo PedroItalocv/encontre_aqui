@@ -189,6 +189,19 @@ restaurantes : [
         isEmpresa:'produto', 
         categoria: 'restaurante' 
     },
+    {
+        id: 12,
+        nome: "Atum Toast",
+        descricao: `
+        Atum semigrelhado. Finalizado com molho teriyaki, cebolinha, alho poró e gergelim. `,
+        imagens:['./../src/assets/images/companies/products/restaurantes/13/01/01.jpg','./../src/assets/images/companies/products/restaurantes/13/01/02.jpg','./../src/assets/images/companies/products/restaurantes/13/01/03.jpg','./../src/assets/images/companies/products/restaurantes/13/01/04.jpg'],
+        preco: "43.00",
+        domicilio:true,
+        agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'restaurante' 
+    },
 ],
     //Fim Produtos
 }
@@ -216,6 +229,23 @@ Empresas = {
             tel: '9297-53197',
             nfavoritos: 55,
             rsocial:['https://www.facebook.com/Kaique.Farias.6653a'],
+            isEmpresa:'empresa',          
+            categoria: 'restaurante' 
+        },
+        {
+            id: 14,
+            produtos: [Produtos.restaurantes[3],Produtos.restaurantes[4]],
+            nome: 'Japatê',
+            descricao: `Japatê, o sabor que a vida #temquetê! 🍣🧡 Uma experiência completa em culinária japonesa.`,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Avenida Brasil, 6345 Shopping Jardim Norte',
+            imagens: ['./../src/assets/images/companies/logos/japate.JPG'],
+            imgBanner:'./../src/assets/images/companies/banners/08/banner.jpg',
+            hfunc:['08:00-18:00','18:00-00:00','18:00-00:00','18:00-00:00','18:00-00:00','18:00-00:00','18:00-00:00','18:00-00:00'],
+            tel: '92975-5489',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/Jatapê.Farias.6253b'],
             isEmpresa:'empresa',          
             categoria: 'restaurante' 
         }
