@@ -218,6 +218,19 @@ supermercado : [
         isEmpresa:'produto', 
         categoria: 'supermercado' 
     },
+    {
+        id: 17,
+        nome: "Chocolate Nestle 1kg M Amargo",
+        descricao: `
+        O Chocolate Meio Amargo Nestlé é feito exclusivamente para uso culinário. Ideal para derreter, cobrir e moldar suas receitas, com tradição e qualidade. `,
+        imagens:['./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp'],
+        preco: "54.90",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'supermercado' 
+    },
 
 ]
     //Fim Produtos
@@ -530,7 +543,7 @@ Empresas = {
     supermercado:[ 
         {
             id: 12,
-            produtos: [Produtos.supermercado[0]],
+            produtos: [Produtos.supermercado[0],Produtos.supermercado[1]],
             nome: 'Supermercados JF',
             descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
             cidade: 'Juiz de Fora',
