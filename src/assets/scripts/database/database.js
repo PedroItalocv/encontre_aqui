@@ -261,7 +261,7 @@ supermercado : [
 ],
 pedreiro : [
     {
-        id: 18,
+        id: 20,
         nome: "Kit Caixa Masseira Desempenadeira Colher de Pedreiro",
         descricao: `
         Kit Caixa Masseira Desempenadeira Colher de Pedreiro + Acessórios Obra Completa Multiuso Pedreiro Pintor Gesseiro e piso
@@ -645,7 +645,7 @@ Categorias = [
     
     {
         id: 1,
-        tags: ['restaurante','comida', 'churasco'],
+        tags: ['restaurante','comida', 'churrasco'],
         empresas:[Empresas.restaurantes]
     },
     {
