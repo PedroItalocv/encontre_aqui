@@ -523,9 +523,9 @@ Empresas = {
             categoria: 'barbearia' 
         },
     ],
-    supermercados:[ 
+    supermercado:[ 
         {
-            id: 12,
+            id: 17,
             produtos: [Produtos.moveis[1]],
             nome: 'Supermercados JF',
             descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
@@ -580,7 +580,7 @@ Categorias = [
     {
         id: 7,
         tags: ['supermercado','frutas', 'alimentação'],
-        empresas:[Empresas.supermercados]
+        empresas:[Empresas.supermercado]
     }
 ]//Fim Catgorias
 /*
