@@ -202,6 +202,9 @@ restaurantes : [
         isEmpresa:'produto', 
         categoria: 'restaurante' 
     },
+
+],
+supermercado : [
     {
         id: 16,
         nome: "Chocolate Suíço Lindt Milk Lindor Balls 75g",
@@ -213,9 +216,10 @@ restaurantes : [
         agendamento:true,
         nfavoritos: 55,
         isEmpresa:'produto', 
-        categoria: 'restaurante' 
+        categoria: 'supermercado' 
     },
-],
+
+]
     //Fim Produtos
 }
 
@@ -525,14 +529,14 @@ Empresas = {
     ],
     supermercado:[ 
         {
-            id: 16,
-            produtos: [Produtos.moveis[1]],
+            id: 12,
+            produtos: [Produtos.supermercado[1]],
             nome: 'Supermercados JF',
             descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
             cidade: 'Juiz de Fora',
             estado: 'Minas Gerais',
             logradouro: 'Rua Roque Picoreli, 11',
-            imagens: ['./../src/assets/images/companies/logos/logo9.pnj'],
+            imagens: ['./../src/assets/images/companies/logos/logo9.png'],
             imgBanner:'',
             hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
             tel: '9897-53197',
