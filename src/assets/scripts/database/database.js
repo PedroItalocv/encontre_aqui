@@ -539,7 +539,7 @@ Empresas = {
             nfavoritos: 55,
             rsocial:['https://www.facebook.com/SupJF.6572i'],
             isEmpresa:'empresa',          
-            categoria: 'barbearia'
+            categoria: 'supermercado'
         } 
     ],
    
