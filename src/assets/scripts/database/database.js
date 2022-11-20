@@ -578,7 +578,7 @@ Empresas = {
     pedreiro:[ 
         {
             id: 13,
-            produtos: [Produtos.supermercado[0]],
+            produtos: [Produtos.pedreiro[0]],
             nome: 'João Alcantra',
             descricao: ` Pedreiro no mercado a mais de 30 anos de experiência em construção de casas e reparos residênciais.  `,
             cidade: 'Juiz de Fora',
@@ -586,7 +586,7 @@ Empresas = {
             logradouro: 'Rua Santa Rita, 20',
             imagens: ['./../src/assets/images/companies/logos/logo10.jpg'],
             imgBanner:'',
-            hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
+            hfunc:['08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00'],
             tel: '97843-5588',
             nfavoritos: 55,
             rsocial:['https://www.facebook.com/JoãoAlcantra.6e82i'],
