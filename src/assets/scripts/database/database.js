@@ -533,7 +533,7 @@ Empresas = {
             estado: 'Minas Gerais',
             logradouro: 'Rua Roque Picoreli, 11',
             imagens: ['./../src/assets/images/companies/logos/supermercado.jpg'],
-            imgBanner:'./src/assets/images/companies/banners/10/banner.jpg',
+            imgBanner:'',
             hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
             tel: '9897-53197',
             nfavoritos: 55,
