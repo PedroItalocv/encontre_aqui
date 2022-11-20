@@ -525,7 +525,7 @@ Empresas = {
     ],
     supermercado:[ 
         {
-            id: 17,
+            id: 16,
             produtos: [Produtos.moveis[1]],
             nome: 'Supermercados JF',
             descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
