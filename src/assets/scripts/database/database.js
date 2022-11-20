@@ -585,7 +585,7 @@ Empresas = {
     supermercado:[ 
         {
             id: 12,
-            produtos: [Produtos.supermercado[0],Produtos.supermercado[1]],
+            produtos: [Produtos.supermercado[0],Produtos.supermercado[1],Produtos.supermercado[4]],
             nome: 'Supermercados JF',
             descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
             cidade: 'Juiz de Fora',
