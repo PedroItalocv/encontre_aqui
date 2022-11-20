@@ -266,7 +266,7 @@ pedreiro : [
         descricao: `
         Kit Caixa Masseira Desempenadeira Colher de Pedreiro + Acessórios Obra Completa Multiuso Pedreiro Pintor Gesseiro e piso
         Kit Obra Completo Masseira 20 Litros Desempenadeira e Colher de Pedreira + Acessórios (01 Conjunto) `,
-        imagens:['./../src/assets/images/companies/products/pedreiro/01.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/03.webp','./../src/assets/images/companies/products/supermercados/04.webp'],
+        imagens:['./../src/assets/images/companies/products/pedreiros/01.webp','./../src/assets/images/companies/products/pedreiros/02.webp','./../src/assets/images/companies/products/pedreiros/03.webp','./../src/assets/images/companies/products/pedreiros/04.webp'],
         preco: "68.69",
         domicilio:false,
         agendamento:false,
