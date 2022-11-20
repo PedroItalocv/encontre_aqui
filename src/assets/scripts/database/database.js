@@ -532,7 +532,7 @@ Empresas = {
             cidade: 'Juiz de Fora',
             estado: 'Minas Gerais',
             logradouro: 'Rua Roque Picoreli, 11',
-            imagens: ['./../src/assets/images/companies/logos/supermercado.jpg'],
+            imagens: ['./../src/assets/images/companies/logos/logo9.pnj'],
             imgBanner:'',
             hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
             tel: '9897-53197',
