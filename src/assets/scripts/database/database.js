@@ -552,7 +552,7 @@ Empresas = {
             imagens: ['./../src/assets/images/companies/logos/logo9.png'],
             imgBanner:'./../src/assets/images/companies/banners/11/banner.jpg',
             hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
-            tel: '9897-53197',
+            tel: '98972-2657',
             nfavoritos: 55,
             rsocial:['https://www.facebook.com/SupJF.6572i'],
             isEmpresa:'empresa',          
