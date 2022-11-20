@@ -273,8 +273,8 @@ pedreiro : [
         nfavoritos: 55,
         isEmpresa:'produto', 
         categoria: 'pedreiro'
-    }
-]
+    },
+],
     //Fim Produtos
 }
 
