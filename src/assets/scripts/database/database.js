@@ -621,8 +621,8 @@ Empresas = {
     ],//FIM SUPERMERCADO
     pedreiro:[ 
         {
-            id: 13,
-            produtos: [Produtos.pedreiro[0]],
+            id: 18,
+            produtos: [Produtos.supermercado[0]],
             nome: 'João Alcantra',
             descricao: ` Pedreiro no mercado a mais de 30 anos de experiência em construção de casas e reparos residênciais.  `,
             cidade: 'Juiz de Fora',
