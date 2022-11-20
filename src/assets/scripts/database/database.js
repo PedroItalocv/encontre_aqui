@@ -250,7 +250,7 @@ supermercado : [
         descricao: `
         O Chocolate Meio Amargo Nestlé é feito exclusivamente para uso culinário. Ideal para derreter, cobrir e moldar suas receitas, com tradição e qualidade. `,
         imagens:['./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp'],
-        preco: "44.90",
+        preco: "54.90",
         domicilio:true,
         agendamento:false,
         nfavoritos: 55,
@@ -259,22 +259,7 @@ supermercado : [
     },
 
 ],
-pedreiro : [
-    {
-        id: 20,
-        nome: "Kit Caixa Masseira Desempenadeira Colher de Pedreiro",
-        descricao: `
-        Kit Caixa Masseira Desempenadeira Colher de Pedreiro + Acessórios Obra Completa Multiuso Pedreiro Pintor Gesseiro e piso
-        Kit Obra Completo Masseira 20 Litros Desempenadeira e Colher de Pedreira + Acessórios (01 Conjunto) `,
-        imagens:['./../src/assets/images/companies/products/pedreiros/01.webp','./../src/assets/images/companies/products/pedreiros/02.webp','./../src/assets/images/companies/products/pedreiros/03.webp','./../src/assets/images/companies/products/pedreiros/04.webp'],
-        preco: "68.69",
-        domicilio:false,
-        agendamento:false,
-        nfavoritos: 55,
-        isEmpresa:'produto', 
-        categoria: 'pedreiro'
-    },
-],
+
     //Fim Produtos
 }
 
@@ -585,7 +570,7 @@ Empresas = {
     supermercado:[ 
         {
             id: 12,
-            produtos: [Produtos.supermercado[0],Produtos.supermercado[1],Produtos.supermercado[4]],
+            produtos: [Produtos.supermercado[0],Produtos.supermercado[1]],
             nome: 'Supermercados JF',
             descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
             cidade: 'Juiz de Fora',
@@ -602,7 +587,7 @@ Empresas = {
         },
         {
             id: 15,
-            produtos: [Produtos.supermercado[2],Produtos.supermercado[3]],
+            produtos: [Produtos.supermercado[2],Produtos.supermercado[3],Produtos.supermercado[0]],
             nome: 'SupMart',
             descricao: ` SupMart o seu supermercado atacarejo com inumeras possibilidades de mercadorias para você.  `,
             cidade: 'Juiz de Fora',
@@ -619,25 +604,7 @@ Empresas = {
         } 
 
     ],//FIM SUPERMERCADO
-    pedreiro:[ 
-        {
-            id: 18,
-            produtos: [Produtos.supermercado[0]],
-            nome: 'João Alcantra',
-            descricao: ` Pedreiro no mercado a mais de 30 anos de experiência em construção de casas e reparos residênciais.  `,
-            cidade: 'Juiz de Fora',
-            estado: 'Minas Gerais',
-            logradouro: 'Rua Santa Rita, 20',
-            imagens: ['./../src/assets/images/companies/logos/logo10.jpg'],
-            imgBanner:'',
-            hfunc:['08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00','08:00-16:00'],
-            tel: '97843-5588',
-            nfavoritos: 55,
-            rsocial:['https://www.facebook.com/JoãoAlcantra.6e82i'],
-            isEmpresa:'empresa',          
-            categoria: 'pedreiro'
-        } 
-    ],
+    
    
 }; //FIM EMPRESAS
 
@@ -645,7 +612,7 @@ Categorias = [
     
     {
         id: 1,
-        tags: ['restaurante','comida', 'churrasco'],
+        tags: ['restaurante','comida', 'churasco'],
         empresas:[Empresas.restaurantes]
     },
     {
@@ -678,11 +645,7 @@ Categorias = [
         tags: ['supermercado','frutas', 'alimentação'],
         empresas:[Empresas.supermercado]
     },
-    {
-        id: 8,
-        tags: ['construir','casas', 'reparos'],
-        empresas:[Empresas.pedreiro]
-    }
+    
 ]//Fim Catgorias
 /*
 console.log(Categorias[0].empresas[0])
