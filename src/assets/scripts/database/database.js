@@ -210,7 +210,7 @@ supermercado : [
         nome: "Chocolate Suíço Lindt Milk Lindor Balls 75g",
         descricao: `
         Chocolate Suíço Lindt Milk Lindor Balls 75g receitas maravilhosas com esse chocolate incrível. `,
-        imagens:['./../src/assets/images/companies/products/supermercados/16/01.webp','./../src/assets/images/companies/products/supermercados/16/01.webp','./../src/assets/images/companies/products/supermercados/16/01.webp','./../src/assets/images/companies/products/supermercados/16/01.webp'],
+        imagens:['./../src/assets/images/companies/products/supermercados/01.webp','./../src/assets/images/companies/products/supermercados/01.webp','./../src/assets/images/companies/products/supermercados/01.webp','./../src/assets/images/companies/products/supermercados/01.webp'],
         preco: "29.90",
         domicilio:true,
         agendamento:true,
@@ -530,7 +530,7 @@ Empresas = {
     supermercado:[ 
         {
             id: 12,
-            produtos: [Produtos.supermercado[1]],
+            produtos: [Produtos.supermercado[0]],
             nome: 'Supermercados JF',
             descricao: ` Supermercado amplo com variedades para toda família e que todo chef, aprendiz de cozinheiro(a) ou fãs de fazer suas próprias refeições possa encontrar, visando sempre atendimento personalizado para cada pessoa.  `,
             cidade: 'Juiz de Fora',
