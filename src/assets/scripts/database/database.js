@@ -232,6 +232,22 @@ supermercado : [
         categoria: 'supermercado' 
     },
 
+],
+pedreiro : [
+    {
+        id: 18,
+        nome: "Kit Caixa Masseira Desempenadeira Colher de Pedreiro",
+        descricao: `
+        Kit Caixa Masseira Desempenadeira Colher de Pedreiro + Acessórios Obra Completa Multiuso Pedreiro Pintor Gesseiro e piso
+        Kit Obra Completo Masseira 20 Litros Desempenadeira e Colher de Pedreira + Acessórios (01 Conjunto) `,
+        imagens:['./../src/assets/images/companies/products/pedreiro/01.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/03.webp','./../src/assets/images/companies/products/supermercados/04.webp'],
+        preco: "68.69",
+        domicilio:false,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'pedreiro'
+    }
 ]
     //Fim Produtos
 }
@@ -558,11 +574,11 @@ Empresas = {
             isEmpresa:'empresa',          
             categoria: 'supermercado'
         } 
-    ],
+    ],//FIM SUPERMERCADO
     pedreiro:[ 
         {
             id: 13,
-            produtos: [],
+            produtos: [Produtos.supermercado[0]],
             nome: 'João Alcantra',
             descricao: ` Pedreiro no mercado a mais de 30 anos de experiência em construção de casas e reparos residênciais.  `,
             cidade: 'Juiz de Fora',
