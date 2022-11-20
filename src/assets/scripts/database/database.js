@@ -231,6 +231,32 @@ supermercado : [
         isEmpresa:'produto', 
         categoria: 'supermercado' 
     },
+    {
+        id: 18,
+        nome: "Leite Itambé Integral Longa Vida 1 Litro",
+        descricao: `
+        Leite UHT Integral Itambé possui teor de gordura de 3% e é prático, nutritivo e ideal para os lanches do dia a dia. O leite UHT é rico em proteínas naturais, possui ainda uma gordura de excepcional qualidade, e muitas vitaminas e sais minerais. `,
+        imagens:['./../src/assets/images/companies/products/supermercados/03.webp','./../src/assets/images/companies/products/supermercados/03.webp','./../src/assets/images/companies/products/supermercados/03.webp','./../src/assets/images/companies/products/supermercados/03.webp'],
+        preco: "7,09",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'supermercado' 
+    },
+    {
+        id: 19,
+        nome: "Chocolate Nestle 1kg M Amargo",
+        descricao: `
+        O Chocolate Meio Amargo Nestlé é feito exclusivamente para uso culinário. Ideal para derreter, cobrir e moldar suas receitas, com tradição e qualidade. `,
+        imagens:['./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp','./../src/assets/images/companies/products/supermercados/02.webp'],
+        preco: "44.90",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'supermercado' 
+    },
 
 ],
 pedreiro : [
@@ -573,7 +599,25 @@ Empresas = {
             rsocial:['https://www.facebook.com/SupJF.6572i'],
             isEmpresa:'empresa',          
             categoria: 'supermercado'
+        },
+        {
+            id: 15,
+            produtos: [Produtos.supermercado[2],Produtos.supermercado[3]],
+            nome: 'SupMart',
+            descricao: ` SupMart o seu supermercado atacarejo com inumeras possibilidades de mercadorias para você.  `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Olegário Maciel, 25',
+            imagens: ['./../src/assets/images/companies/logos/logo11.png'],
+            imgBanner:'./../src/assets/images/companies/banners/13/banner.jpg',
+            hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
+            tel: '98972-4738',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/SupMart.9902of'],
+            isEmpresa:'empresa',          
+            categoria: 'supermercado'
         } 
+
     ],//FIM SUPERMERCADO
     pedreiro:[ 
         {
