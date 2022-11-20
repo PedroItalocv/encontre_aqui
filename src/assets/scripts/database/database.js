@@ -210,7 +210,7 @@ supermercado : [
         nome: "Chocolate Suíço Lindt Milk Lindor Balls 75g",
         descricao: `
         Chocolate Suíço Lindt Milk Lindor Balls 75g receitas maravilhosas com esse chocolate incrível. `,
-        imagens:['./../src/assets/images/companies/products/restaurantes/16/01.webp','./../src/assets/images/companies/products/restaurantes/16/01.webp','./../src/assets/images/companies/products/restaurantes/16/01.webp','./../src/assets/images/companies/products/restaurantes/16/01.webp'],
+        imagens:['./../src/assets/images/companies/products/supermercados/16/01.webp','./../src/assets/images/companies/products/supermercados/16/01.webp','./../src/assets/images/companies/products/supermercados/16/01.webp','./../src/assets/images/companies/products/supermercados/16/01.webp'],
         preco: "29.90",
         domicilio:true,
         agendamento:true,
@@ -409,7 +409,7 @@ Empresas = {
             isEmpresa:'empresa',       
             categoria: 'moveis' 
         }
-    ],
+    ],//FIM MOVEIS
     eletricistas:[
         {
             id: 7,
@@ -445,7 +445,7 @@ Empresas = {
             isEmpresa:'empresa',           
             categoria: 'eletricista' 
         },
-    ],
+    ],//FIM ELETRICISTAS
     advogados:[
         {
             id: 8,
@@ -490,7 +490,7 @@ Empresas = {
             isEmpresa:'empresa',      
             categoria: 'advogado' 
         },
-    ],
+    ],//FIM ADVOGADOS
     barbearia:[
          {
             id: 10,
@@ -526,7 +526,7 @@ Empresas = {
             isEmpresa:'empresa',          
             categoria: 'barbearia' 
         },
-    ],
+    ],//FIM BARBEARIA
     supermercado:[ 
         {
             id: 12,
