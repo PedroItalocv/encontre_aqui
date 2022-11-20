@@ -213,7 +213,7 @@ supermercado : [
         imagens:['./../src/assets/images/companies/products/supermercados/01.webp','./../src/assets/images/companies/products/supermercados/01.webp','./../src/assets/images/companies/products/supermercados/01.webp','./../src/assets/images/companies/products/supermercados/01.webp'],
         preco: "29.90",
         domicilio:true,
-        agendamento:true,
+        agendamento:false,
         nfavoritos: 55,
         isEmpresa:'produto', 
         categoria: 'supermercado' 
@@ -537,7 +537,7 @@ Empresas = {
             estado: 'Minas Gerais',
             logradouro: 'Rua Roque Picoreli, 11',
             imagens: ['./../src/assets/images/companies/logos/logo9.png'],
-            imgBanner:'',
+            imgBanner:'./../src/assets/images/companies/banners/11/banner.jpg',
             hfunc:['08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-20:00','08:00-14:00'],
             tel: '9897-53197',
             nfavoritos: 55,
