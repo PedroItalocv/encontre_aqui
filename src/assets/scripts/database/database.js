@@ -302,7 +302,7 @@ padaria : [
         id: 23,
         nome: "Bolo de Casamento",
         descricao: `
-        Bolo com três andar para casamento, feito com massa de pão de ló, suculenta e macio. `,
+        Bolo com três andares para casamento, feito com massa de pão de ló, suculenta e macio. `,
         imagens:['./../src/assets/images/companies/products/padarias/03.jpg','./../src/assets/images/companies/products/padarias/03.jpg','./../src/assets/images/companies/products/padarias/03.jpg','./../src/assets/images/companies/products/padarias/03.jpg'],
         preco: "119,90",
         domicilio:true,
@@ -709,7 +709,7 @@ Empresas = {
     confeitaria: [
         {
             id: 18,
-            produtos: [Produtos.moveis[0]],
+            produtos: [Produtos.padaria[3]],
             nome: 'Ana Confeitaria',
             descricao: ` Cupcakes e doces para festas. `,
             cidade: 'Juiz de Fora',
@@ -720,7 +720,24 @@ Empresas = {
             hfunc:['08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00'],
             tel: '94521-5020',
             nfavoritos: 55,
-            rsocial:['https://www.facebook.com/DorcellePadaria.9028f0'],
+            rsocial:['https://www.facebook.com/AnaConfeitaria.fwe8f0'],
+            isEmpresa:'empresa',          
+            categoria: 'confeitaria'
+        },
+        {
+            id: 19,
+            produtos: [Produtos.padaria[2]],
+            nome: 'Borcelle',
+            descricao: ` Confeitaria Caseira. `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Enrique Dias, 252',
+            imagens: ['./../src/assets/images/companies/logos/confeitaria2.png'],
+            imgBanner:'./../src/assets/images/companies/banners/17/banner.jpg',
+            hfunc:['08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00'],
+            tel: '94521-5020',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/Borcelle.8768f0'],
             isEmpresa:'empresa',          
             categoria: 'confeitaria'
         }
@@ -766,22 +783,22 @@ Categorias = [
     },
     {
         id: 8,
-        tags: ['pão','bolos', 'doces'],
+        tags: ['padaria','bolos', 'doces'],
         empresas:[Empresas.padaria]
     },
     {
         id: 9,
-        tags: ['bolos','cupcakes', 'doces'],
+        tags: ['confeitaria','cupcakes', 'doces'],
         empresas:[Empresas.confeitaria]
     },
     {
         id: 10,
-        tags: ['coxinha','pão de queijo', 'hamburgues'],
+        tags: ['lanchonete','pão de queijo', 'hamburgues'],
         empresas:[Empresas.lanchonete]
     },
     {
         id: 11,
-        tags: ['pizzas','pizzas doces', 'pizzaria'],
+        tags: ['pizzaria','pizzas doces', 'pizzaria'],
         empresas:[Empresas.pizzaria]
     },
     
