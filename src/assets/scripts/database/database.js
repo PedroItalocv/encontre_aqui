@@ -257,7 +257,73 @@ supermercado : [
         isEmpresa:'produto', 
         categoria: 'supermercado' 
     },
-
+],
+padaria : [    
+    {
+        id: 20,
+        nome: "Pão Doce",
+        descricao: `
+        Suculento com macio e saudável `,
+        imagens:['./../src/assets/images/companies/products/padarias/01.jpg','./../src/assets/images/companies/products/padarias/01.jpg','./../src/assets/images/companies/products/padarias/01.jpg','./../src/assets/images/companies/products/padarias/01.jpg'],
+        preco: "9,90",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'padaria' 
+    },
+    {
+        id: 21,
+        nome: "Pão de Sal",
+        descricao: `
+        Macio e fresquinho, pão de sal com a melhor farinha que você já provou. `,
+        imagens:['./../src/assets/images/companies/products/padarias/01.jpg','./../src/assets/images/companies/products/padarias/01.jpg','./../src/assets/images/companies/products/padarias/01.jpg','./../src/assets/images/companies/products/padarias/01.jpg'],
+        preco: "8,90",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'padaria' 
+    },
+    {
+        id: 22,
+        nome: "Bolo de Cenoura com Cobertura de chocolate",
+        descricao: `
+        Bolo de cenoura com cobertura de chocolate feito com ingredientes das melhores marcas do mercado, você vai se surpreender. `,
+        imagens:['./../src/assets/images/companies/products/padarias/02.jpg','./../src/assets/images/companies/products/padarias/02.jpg','./../src/assets/images/companies/products/padarias/02.jpg','./../src/assets/images/companies/products/padarias/02.jpg'],
+        preco: "5,90",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'padaria' 
+    },
+    {
+        id: 23,
+        nome: "Bolo de Casamento",
+        descricao: `
+        Bolo com três andar para casamento, feito com massa de pão de ló, suculenta e macio. `,
+        imagens:['./../src/assets/images/companies/products/padarias/03.jpg','./../src/assets/images/companies/products/padarias/03.jpg','./../src/assets/images/companies/products/padarias/03.jpg','./../src/assets/images/companies/products/padarias/03.jpg'],
+        preco: "119,90",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'padaria' 
+    },
+    {
+        id: 24,
+        nome: "Churros",
+        descricao: `
+        Churros de qualidade, açucarado e cremosa a cobertura. `,
+        imagens:['./../src/assets/images/companies/products/padarias/04.jpg','./../src/assets/images/companies/products/padarias/04.jpg','./../src/assets/images/companies/products/padarias/04.jpg','./../src/assets/images/companies/products/padarias/04.jpg'],
+        preco: "4,99",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'padaria' 
+    },
 ],
 
     //Fim Produtos
@@ -603,9 +669,62 @@ Empresas = {
             categoria: 'supermercado'
         } 
 
-    ],//FIM SUPERMERCADO
-    
-   
+    ],
+    padaria: [
+        {
+            id: 16,
+            produtos: [Produtos.padaria[0],Produtos.padaria[1]],
+            nome: 'Delícias Artesanais Farina',
+            descricao: ` Pães fresquinhos e artesanais para você e sua família degustar diariamente em ocasiões extraordinárias.  `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Nélson Gomes de Carvalho, 90',
+            imagens: ['./../src/assets/images/companies/logos/padaria.png'],
+            imgBanner:'./../src/assets/images/companies/banners/14/banner.jpg',
+            hfunc:['06:00-20:00','06:00-20:00','06:00-20:00','06:00-20:00','06:00-20:00','06:00-20:00','06:00-14:00'],
+            tel: '98545-4125',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/DeliciasArtFarina.2030f0'],
+            isEmpresa:'empresa',          
+            categoria: 'padaria'
+        },
+        {
+            id: 17,
+            produtos: [Produtos.padaria[0],Produtos.padaria[1]],
+            nome: 'Dorcelle Padaria',
+            descricao: ` Os melhores pães e doces da cidade, nosso pilar é te servir.`,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Antônio Fellet, 484',
+            imagens: ['./../src/assets/images/companies/logos/padaria2.png'],
+            imgBanner:'./../src/assets/images/companies/banners/15/banner.jpg',
+            hfunc:['06:00-20:00','06:00-20:00','06:00-20:00','06:00-20:00','06:00-20:00','06:00-20:00','06:00-14:00'],
+            tel: '94521-5020',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/DorcellePadaria.9028f0'],
+            isEmpresa:'empresa',          
+            categoria: 'padaria'
+        }
+    ],
+    confeitaria: [
+        {
+            id: 18,
+            produtos: [Produtos.moveis[0]],
+            nome: 'Ana Confeitaria',
+            descricao: ` Cupcakes e doces para festas. `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Muriaé, 129',
+            imagens: ['./../src/assets/images/companies/logos/confeitaria.png'],
+            imgBanner:'./../src/assets/images/companies/banners/16/banner.jpg',
+            hfunc:['08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00'],
+            tel: '94521-5020',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/DorcellePadaria.9028f0'],
+            isEmpresa:'empresa',          
+            categoria: 'confeitaria'
+        }
+    ],
 }; //FIM EMPRESAS
 
 Categorias = [
@@ -644,6 +763,26 @@ Categorias = [
         id: 7,
         tags: ['supermercado','frutas', 'alimentação'],
         empresas:[Empresas.supermercado]
+    },
+    {
+        id: 8,
+        tags: ['pão','bolos', 'doces'],
+        empresas:[Empresas.padaria]
+    },
+    {
+        id: 9,
+        tags: ['bolos','cupcakes', 'doces'],
+        empresas:[Empresas.confeitaria]
+    },
+    {
+        id: 10,
+        tags: ['coxinha','pão de queijo', 'hamburgues'],
+        empresas:[Empresas.lanchonete]
+    },
+    {
+        id: 11,
+        tags: ['pizzas','pizzas doces', 'pizzaria'],
+        empresas:[Empresas.pizzaria]
     },
     
 ]//Fim Catgorias
