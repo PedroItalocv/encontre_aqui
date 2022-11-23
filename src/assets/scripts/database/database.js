@@ -325,6 +325,89 @@ padaria : [
         categoria: 'padaria' 
     },
 ],
+lanchonete : [
+    {
+        id: 25,
+        nome: "Pastel Frito",
+        descricao: `
+        Pastel frito de carne, queijo e presunto. `,
+        imagens:['./../src/assets/images/companies/products/lanchonete/01.jpg','./../src/assets/images/companies/products/lanchonete/01.jpg','./../src/assets/images/companies/products/lanchonete/01.jpg','./../src/assets/images/companies/products/lanchonete/01.jpg'],
+        preco: "1,99",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'lanchonete' 
+    },
+    {
+        id: 26,
+        nome: "Pastel Assado",
+        descricao: `
+        Pastel assado de carne, queijo e presunto. `,
+        imagens:['./../src/assets/images/companies/products/lanchonete/03.jpg','./../src/assets/images/companies/products/lanchonete/03.jpg','./../src/assets/images/companies/products/lanchonete/03.jpg','./../src/assets/images/companies/products/lanchonete/03.jpg'],
+        preco: "4,99",
+        domicilio:true,
+        agendamento:false,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'lanchonete' 
+    },
+    {
+        id: 27,
+        nome: "Hamburguer com Fritas",
+        descricao: `
+        Saboroso hamburguer com porção de fritas `,
+        imagens:['./../src/assets/images/companies/products/lanchonete/02.jpg','./../src/assets/images/companies/products/lanchonete/02.jpg','./../src/assets/images/companies/products/lanchonete/02.jpg','./../src/assets/images/companies/products/lanchonete/02.jpg'],
+        preco: "8,99",
+        domicilio:true,
+        agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'lanchonete' 
+    },
+    {
+        id: 28,
+        nome: "Hamburguer Artesanal",
+        descricao: `
+        Saboroso hamburguer artesanal `,
+        imagens:['./../src/assets/images/companies/products/lanchonete/04.jpg','./../src/assets/images/companies/products/lanchonete/04.jpg','./../src/assets/images/companies/products/lanchonete/04.jpg','./../src/assets/images/companies/products/lanchonete/04.jpg'],
+        preco: "14,99",
+        domicilio:true,
+        agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'lanchonete' 
+    },
+
+],
+pizzaria : [
+    {
+        id: 29,
+        nome: "Pizza Artesanal",
+        descricao: `
+        Saborosa pizza artesanal `,
+        imagens:['./../src/assets/images/companies/products/pizzaria/01.jpg','./../src/assets/images/companies/products/pizzaria/01.jpg','./../src/assets/images/companies/products/pizzaria/01.jpg','./../src/assets/images/companies/products/pizzaria/01.jpg'],
+        preco: "49,99",
+        domicilio:true,
+        agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'pizzaria'  
+    },
+    {
+        id: 30,
+        nome: "Pizza Italiana",
+        descricao: `
+        Saborosa pizza italiana. `,
+        imagens:['./../src/assets/images/companies/products/pizzaria/02.jpg','./../src/assets/images/companies/products/pizzaria/02.jpg','./../src/assets/images/companies/products/pizzaria/02.jpg','./../src/assets/images/companies/products/pizzaria/02.jpg'],
+        preco: "79,99",
+        domicilio:true,
+        agendamento:true,
+        nfavoritos: 55,
+        isEmpresa:'produto', 
+        categoria: 'pizzaria'  
+    }
+]
 
     //Fim Produtos
 }
@@ -740,8 +823,82 @@ Empresas = {
             rsocial:['https://www.facebook.com/Borcelle.8768f0'],
             isEmpresa:'empresa',          
             categoria: 'confeitaria'
-        }
+        },
     ],
+    lanchonete : [
+        {
+            id: 20,
+            produtos: [Produtos.lanchonete[0],Produtos.lanchonete[1]],
+            nome: 'Djnguês Pastelaria',
+            descricao: ` Os melhores pasteis de Juiz de Fora `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Dr. Jamil Altafi, 152',
+            imagens: ['./../src/assets/images/companies/logos/lanch.png'],
+            imgBanner:'./../src/assets/images/companies/banners/18/banner.jpg',
+            hfunc:['08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00'],
+            tel: '94521-5300',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/DjnguêsPastelaria.50503d'],
+            isEmpresa:'empresa',          
+            categoria: 'lanchonete'
+        },
+        {
+            id: 21,
+            produtos: [Produtos.lanchonete[2],Produtos.lanchonete[3]],
+            nome: 'Delicia de Lanche',
+            descricao: ` Os melhores hamburgues de Juiz de Fora `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Antonio Felet, 965',
+            imagens: ['./../src/assets/images/companies/logos/lanch2.png'],
+            imgBanner:'./../src/assets/images/companies/banners/19/banner.jpg',
+            hfunc:['08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00'],
+            tel: '94521-5300',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/DeliciadeLanche.58703d'],
+            isEmpresa:'empresa',          
+            categoria: 'lanchonete'
+        },
+    ],
+    pizzaria : [
+        {
+            id: 22,
+            produtos: [Produtos.pizzaria[0],Produtos.pizzaria[1]],
+            nome: 'Itali Pizza',
+            descricao: ` As melhores pizzas atersanais de Juiz de Fora `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Carangola, 110',
+            imagens: ['./../src/assets/images/companies/logos/pizza.png'],
+            imgBanner:'./../src/assets/images/companies/banners/20/banner.jpg',
+            hfunc:['08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00'],
+            tel: '94521-5300',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/ItaliPizza.50003d'],
+            isEmpresa:'empresa',          
+            categoria: 'pizzaria'
+        },
+        {
+            id: 22,
+            produtos: [Produtos.pizzaria[0],Produtos.pizzaria[1]],
+            nome: 'Gustor Pizzaria',
+            descricao: ` Pizzaria com diversos sabores de pizza para você saborear. `,
+            cidade: 'Juiz de Fora',
+            estado: 'Minas Gerais',
+            logradouro: 'Rua Viçosa, 59',
+            imagens: ['./../src/assets/images/companies/logos/pizza2.png'],
+            imgBanner:'./../src/assets/images/companies/banners/21/banner.jpg',
+            hfunc:['08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00','08:00-17:00'],
+            tel: '94521-5300',
+            nfavoritos: 55,
+            rsocial:['https://www.facebook.com/GustorPizzaria.23003d'],
+            isEmpresa:'empresa',          
+            categoria: 'pizzaria'
+        },
+
+    ]
+
 }; //FIM EMPRESAS
 
 Categorias = [
