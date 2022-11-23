@@ -880,7 +880,7 @@ Empresas = {
             categoria: 'pizzaria'
         },
         {
-            id: 22,
+            id: 23,
             produtos: [Produtos.pizzaria[0],Produtos.pizzaria[1]],
             nome: 'Gustor Pizzaria',
             descricao: ` Pizzaria com diversos sabores de pizza para você saborear. `,
